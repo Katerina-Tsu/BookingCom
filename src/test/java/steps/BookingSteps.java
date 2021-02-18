@@ -60,6 +60,6 @@ public class BookingSteps {
 
     @And("Rating of the {string} is {string}")
     public void ratingOfTheDoubleTreeByHiltonМинскIs(String hotel, String rating) {
-        assertThat($$(".bui-review-score__badge").texts(), hasItem(rating));
+
     }
 }
